@@ -23,11 +23,13 @@ function displayTodos(todos) {
     todos.forEach(todo => {
         const li = document.createElement('li');
         li.textContent = todo.title;
-
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.checked = false; // Mark if already completed
         //checkbox.disabled = todo.completed; // Disable if already completed
+
+        
+       
 
         // Event listener for checkbox
         checkbox.addEventListener('change', function () {

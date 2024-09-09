@@ -25,3 +25,53 @@ ul#todoList li {
 input[type="checkbox"] {
     margin-right: 10px;
 }
+
+form {
+    width: 30%;
+    margin: 18% 31%;
+    background-color: rgb(136, 182, 173);
+    border-radius: 8px;
+    padding: 20px;
+    opacity: 0.9;
+}
+/* form login{
+ align-items: center;
+} */
+ .btn {
+    display: block;
+    margin: 0 auto;
+ }
+ #loghead{
+    display: block;
+    text-align: center;
+ }
+ #head{
+    margin-top: 0px;
+    display: flex;
+    background-color: rgb(162, 156, 231);
+    height: 40px;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+    border-radius: 2px;
+ }
+ body{
+    margin: 0px;
+ }
+ #todoList{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    border: 2px solid rgb(168, 118, 62);
+    border-radius: 8px;
+    width: 40%;
+    background-color: blanchedalmond;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    padding: 5px;
+
+    
+ }
