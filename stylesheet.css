@@ -1,0 +1,27 @@
+/* styles.css */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul#todoList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul#todoList li {
+    padding: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
